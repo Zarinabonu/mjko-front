@@ -2,6 +2,7 @@
     background-color: #F1F1F1;
     display: inline-flex;
 }
+
 .language-list {
     font-family: Open Sans;
     font-style: normal;
@@ -13,6 +14,7 @@
 
     color: #646464;
 }
+
 .language-list ul li:active {
     font-family: Open Sans;
     font-style: normal;
@@ -24,9 +26,11 @@
 
     color: #005FED;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
+
 .language-list ul li {
     display: inline;
     font-family: Open Sans;
@@ -43,26 +47,33 @@ ul li{
     transform: rotate(90deg);
 
 }
-.language-list ul li:nth-child(1){
+
+.language-list ul li:nth-child(1) {
     padding-left: 125px !important;
 }
-.language-list ul li:nth-child(3){
+
+.language-list ul li:nth-child(3) {
     border: none;
 }
-.header-email ul li{
+
+.header-email ul li {
     display: inline;
 }
-ul{
+
+ul {
     padding: 0;
     margin-bottom: 0 !important;
 }
-.header-email ul li:nth-child(1) img{
+
+.header-email ul li:nth-child(1) img {
     padding-left: 26em;
 }
-.header-email ul li img{
+
+.header-email ul li img {
     padding-right: 10px;
 }
-.header-email ul li a{
+
+.header-email ul li a {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -74,7 +85,8 @@ ul{
 
     color: #646464;
 }
-.header-email ul li:active{
+
+.header-email ul li:active {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -85,7 +97,8 @@ ul{
 
     color: #5186EC;
 }
-.top-header button{
+
+.top-header button {
     margin-right: 43px;
     background: linear-gradient(180deg, #4318BE 0%, rgba(67, 24, 190, 0) 210%);
     border-radius: 12px;
@@ -93,22 +106,25 @@ ul{
     width: 60px;
     height: 30px;
 }
+
 .logo-header {
     flex: initial;
     width: 1351px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     height: 152px;
     display: inline-flex;
 
 }
-.logo-header img{
+
+.logo-header .logo-img {
     padding: 45px 0 46px 125px;
 }
-h4{
+
+h4 {
     margin: 0;
 }
-.logo-header h4{
+
+.logo-header h4 {
     text-align: left;
     font-family: Open Sans;
     font-style: normal;
@@ -123,4 +139,286 @@ h4{
 
     color: #272727;
 }
-.
+
+.logo-header .logo-thin-img {
+    padding-left: 12px;
+}
+
+.logo-header p {
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    width: 430px;
+    margin-left: 17em;
+    padding: 52px 0 50px 0px;
+    background-image: url("../static/img/aforizm.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+    color: #646464;
+}
+
+.menu-list {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1), 0px 8px 30px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    height: 66px;
+    width: -webkit-fill-available;
+}
+
+.menu-list ul li {
+    display: inline;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 24px 0px 24px 25px;
+    /* identical to box height */
+
+
+    color: #525252;
+
+}
+
+.menu-list ul {
+    padding-top: 20px;
+    margin: 0;
+
+}
+
+.menu-list ul li:nth-child(1) {
+    padding-left: 125px;
+}
+
+.menu-list .helpline {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+    padding-top: 10px;
+
+    color: #646464;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list p {
+    display: inline-block;
+}
+
+.phone {
+    display: grid;
+    margin-left: 13.3em;
+}
+
+.phone p {
+    margin: 0;
+}
+
+.helpline-number {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #005FED;
+}
+
+.carousel {
+    background: #FAFAFA;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #454545;
+
+}
+
+.main-news {
+    background: white;
+    margin-top: 48px;
+}
+
+.main-news .col-md-4 {
+    padding-left: 125px;
+}
+
+.news-anons .news-anons-list {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 120px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F1F1F1;
+    /* identical to box height */
+
+
+    color: #A5A5A5;
+}
+
+.main-new-bottom-content a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 120px;
+    padding-bottom: 15px;
+    /* identical to box height */
+
+
+    color: #A5A5A5;
+}
+
+.news-anons {
+    padding-left: 125px;
+}
+
+.news-img {
+    margin-top: 24px;
+    display: flex;
+
+}
+
+.news-img .prezident-img {
+    background-image: linear-gradient(180deg, rgba(0, 95, 237, 0) 41.15%, rgba(0, 95, 237, 0.21) 57.29%, #005FED 91.78%),
+    url('../static/img/prezident.jpg');
+
+    height: 300px;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.prezident-img p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.main-new-bottom-content {
+    padding: 0 24px 0 21px;
+}
+
+.main-new-bottom-content .news-title {
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-bottom-width: thin;
+    margin-top: 12em;
+}
+
+.news-date-views {
+    margin-top: -3.5%;
+    display: flex;
+
+
+}
+
+.news-date-views .news-date {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding-right: 17.6em;
+}
+
+.news-date-views .news-views {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.news {
+    display: flex;
+}
+
+.news-list li {
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.news-list li a p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #272727;
+
+}
+
+.news-list-date {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 25px;
+
+    color: #A5A5A5;
+}
+
+.news-list li a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 120px;
+    padding-bottom: 15px;
+    /* identical to box height */
+
+
+    color: #A5A5A5;
+}
+
+.news-date-list-views {
+    width: 74%;
+    /* position: absolute; */
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 15px;
+}
+

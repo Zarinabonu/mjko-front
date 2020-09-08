@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
@@ -38,7 +40,8 @@
         </button>
     </div>
     <div class="logo-header">
-        <img src="../static/img/logo.svg" alt="">
+        <img class="logo-img" src="../static/img/logo.svg" alt="">
+        <img class="logo-thin-img" src="../static/img/logo-thin.svg" alt="logo thin">
         <h4>МИНИСТЕРСТВО ЖИЛИЩНО-КОММУНАЛЬНОГО ХОЗЯЙСТВА РЕСПУБЛИКИ УЗБЕКИСТАН</h4>
         <p>Удовлетворенность народа жизнью – самая высокая и справедливая оценка, данная нашей работе</p>
     </div>
@@ -52,85 +55,142 @@
         <li>СПЕЦИАЛИСТАМ</li>
         <li>КОНТАКТЫ</li>
     </ul>
-    <p>Телефон доверия</p>
-    <p>(+99871) 234-11-03</p>
-    <p class="carousel">Шавкат Мирзиёев: Территориальные лидеры промышленности и лавины «убийца»</p>
+    <div class="phone">
+        <p class="helpline">Телефон доверия</p>
+        <p class=helpline-number>(+99871) 234-11-03</p>
+    </div>
+
+
 </div>
+<p class="carousel">Шавкат Мирзиёев: Территориальные лидеры промышленности и лавины «убийца»</p>
 <div class="main-news">
-    <div class="col-md-4">
-        <div class="news-anons">
-            <a href="#">НОВОСТИ МИНИСТЕРСТВА</a>
-            <a href="#">АНОНС</a>
+    <div class="news-anons">
+        <a class="news-anons-list" href="#">НОВОСТИ МИНИСТЕРСТВА</a>
+        <a class="news-anons-list" href="#">АНОНС</a>
+        <div class="news">
+            <div class="news-img">
+                <div class="prezident-img col-sm-5">
+                    <div class="main-new-bottom-content">
+                        <a href="#">
+                            <p class="news-title">Наши цели и действия направлены на обеспечение процветания
+                                нашего
+                                народа, будущего наших детей,
+                                мира
+                                в
+                                нашей стране.</p>
+                        </a>
+                        <div class="news-date-views">
+                            <p class="news-date">11 Сентября, 2012 12:49</p>
+                            <p class="news-views">
+                                <img src="../static/img/logo-views.svg" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                <ul class="news-list">
+                    <li>
+                        <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
+                        <div class="news-date-list-views">
+                            <p class="news-list-date">11 Сентября, 2012 12:49</p>
+                            <p class="news-list-date">
+                                <img src="../static/img/news-view.png" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
+                        <div class="news-date-views">
+                            <p class="news-list-date">11 Сентября, 2012 12:49</p>
+                            <p class="news-list-date">
+                                <img src="../static/img/news-view.png" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
+                        <div class="news-date-views">
+                            <p class="news-list-date">11 Сентября, 2012 12:49</p>
+                            <p class="news-list-date">
+                                <img src="../static/img/news-view.png" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                <div class="service col-sm-2">
+                <h3>Интерактивные услуги</h3>
+                <ul>
+                    <li>
+                        <img src="../static/img/jkx-service.svg" alt="jkx services">
+                        <a href="#">ЖКХ услуги</a>
+                    </li>
+                    <li><img src="../static/img/calculator-service.svg" alt="calculator services">
+                        <a href="#">Оплата за ЖКХ</a></li>
+                    <li><img src="../static/img/tender.svg" alt="tender services">
+                        <a href="#">Тендеры</a></li>
+                    <li><img src="../static/img/message.svg" alt="message services">
+                        <a href="#">Сообщество</a></li>
+                    <li><img src="../static/img/service.svg" alt="services">
+                        <a href="#">Гос услуги</a></li>
+                    <li><img src="../static/img/npa.svg" alt="npa services">
+                        <a href="#">НПА</a></li>
+                </ul>
+                <a href="#"><img src="../static/img/statistic.svg" alt="statistic" Статистика></a>
+                <a href="#"><img src="../static/img/all-services.svg" alt="">Все услуги</a>
+            </div>
+            </div>
+
+
         </div>
-        <div class="news-img">
-            <img src="" alt="">
-            <p>Наши цели и действия направлены на обеспечение процветания нашего народа, будущего наших детей, мира в
-                нашей стране.</p>
-            <div class="news-date-views">
-                <p>11 Сентября, 2012 12:49</p>
-                <p>
-                    <img src="../static/img/logo-views.svg" alt="count views">
-                    851
-                </p>
+        <div class="anons">
+            <div class="news-img">
+                <img src="" alt="">
+                <p>Наши цели и действия направлены на обеспечение процветания нашего народа, будущего наших детей, мира
+                    в
+                    нашей стране.</p>
+                <div class="news-date-views">
+                    <p>11 Сентября, 2012 12:49</p>
+                    <p>
+                        <img src="../static/img/logo-views.svg" alt="count views">
+                        851
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
+                        <div class="news-date-list-views">
+                            <p>11 Сентября, 2012 12:49</p>
+                            <p>
+                                <img src="../static/img/logo-views.svg" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
+                        <div class="news-date-list-views">
+                            <p>11 Сентября, 2012 12:49</p>
+                            <p>
+                                <img src="../static/img/logo-views.svg" alt="count views">
+                                851
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <ul>
-            <li>
-                <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
-                <div class="news-date-views">
-                    <p>11 Сентября, 2012 12:49</p>
-                    <p>
-                        <img src="../static/img/logo-views.svg" alt="count views">
-                        851
-                    </p>
-                </div>
-            </li>
-            <li>
-                <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
-                <div class="news-date-views">
-                    <p>11 Сентября, 2012 12:49</p>
-                    <p>
-                        <img src="../static/img/logo-views.svg" alt="count views">
-                        851
-                    </p>
-                </div>
-            </li>
-            <li>
-                <a><p>Имам Тирмизи стал международным исследовательским центром</p></a>
-                <div class="news-date-views">
-                    <p>11 Сентября, 2012 12:49</p>
-                    <p>
-                        <img src="../static/img/logo-views.svg" alt="count views">
-                        851
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h3>Интерактивные услуги</h3>
-        <ul>
-            <li>
-                <img src="../static/img/jkx-service.svg" alt="jkx services">
-                <a href="#">ЖКХ услуги</a>
-            </li>
-            <li><img src="../static/img/calculator-service.svg" alt="calculator services">
-                <a href="#">Оплата за ЖКХ</a></li>
-            <li><img src="../static/img/tender.svg" alt="tender services">
-                <a href="#">Тендеры</a></li>
-            <li><img src="../static/img/message.svg" alt="message services">
-                <a href="#">Сообщество</a></li>
-            <li><img src="../static/img/service.svg" alt="services">
-                <a href="#">Гос услуги</a></li>
-            <li><img src="../static/img/npa.svg" alt="npa services">
-                <a href="#">НПА</a></li>
-        </ul>
-        <a href="#"><img src="../static/img/statistic.svg" alt="statistic" Статистика></a>
-        <a href="#"><img src="../static/img/all-services.svg" alt="">Все услуги</a>
-    </div>
+
+
 </div>
+
 <div class="organizations">
     <h3>Организации министерства</h3>
     <ul>
