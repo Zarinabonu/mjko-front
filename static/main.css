@@ -1,0 +1,126 @@
+.top-header {
+    background-color: #F1F1F1;
+    display: inline-flex;
+}
+.language-list {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #646464;
+}
+.language-list ul li:active {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #005FED;
+}
+ul li{
+    list-style: none;
+}
+.language-list ul li {
+    display: inline;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #646464;
+    padding: 11px 20px 9px 20px !important;
+    border-right: 1px solid #D7D7D7;
+    transform: rotate(90deg);
+
+}
+.language-list ul li:nth-child(1){
+    padding-left: 125px !important;
+}
+.language-list ul li:nth-child(3){
+    border: none;
+}
+.header-email ul li{
+    display: inline;
+}
+ul{
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+.header-email ul li:nth-child(1) img{
+    padding-left: 26em;
+}
+.header-email ul li img{
+    padding-right: 10px;
+}
+.header-email ul li a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 30px;
+    /* identical to box height */
+
+
+    color: #646464;
+}
+.header-email ul li:active{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #5186EC;
+}
+.top-header button{
+    margin-right: 43px;
+    background: linear-gradient(180deg, #4318BE 0%, rgba(67, 24, 190, 0) 210%);
+    border-radius: 12px;
+    border-color: inherit;
+    width: 60px;
+    height: 30px;
+}
+.logo-header {
+    flex: initial;
+    width: 1351px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    height: 152px;
+    display: inline-flex;
+
+}
+.logo-header img{
+    padding: 45px 0 46px 125px;
+}
+h4{
+    margin: 0;
+}
+.logo-header h4{
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 133%;
+    width: 391px;
+    height: 63px;
+    padding: 44px 0 44px 24px;
+    /* or 21px */
+
+
+    color: #272727;
+}
+.
